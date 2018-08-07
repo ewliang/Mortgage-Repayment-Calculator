@@ -49,9 +49,24 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+	color: #e1dfd2;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.text-center {
+	margin: 0 auto;
+	text-align: center;
+}
+
 .site-logo {
   font-family: 'Times New Roman';
   font-size: 12em;
+}
+
+.git-icons {
+	flex-direction: row;
 }
 
 /* Tablet, Desktop + */
