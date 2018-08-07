@@ -7,5 +7,8 @@ A simple mortgage repayment calculator. I made this just to practice my web desi
 ## Repository
 [Mortgage Repayment Calculator Repository](https://github.com/ewliang/Mortgage-Repayment-Calculator)
 
+## Demo
+https://ewliang.github.io/Mortgage-Repayment-Calculator/
+
 ## License
 See LICENSE file.
