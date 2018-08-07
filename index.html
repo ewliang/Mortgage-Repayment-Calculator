@@ -20,10 +20,10 @@
           Est. Monthly Payment
         </p>
         <br>
-        <form>
-          <input type = "number" id = "principal" placeholder = "Mortgage Loan Amount" value = "">
+        <form onchange = "MonthlyPayment()">
+          <input type = "number" id = "principal" placeholder = "Mortgage Loan Amount" value = "" step="0.01">
           <br>
-          <input type = "number" id = "interestRate" placeholder = "Interest Rate" value = "">
+          <input type = "number" id = "interestRate" placeholder = "Interest Rate" value = "" step="0.01">
           <br>
           <input type = "number" id = "repaymentPeriod" placeholder = "Repayment Period In Years" value = "">
         </form>
