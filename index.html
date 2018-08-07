@@ -3,15 +3,69 @@
   <head>
     <meta charset="utf-8">
     <title>Mortgage Repayment Calculator | Eric Liang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel = "stylesheet" type "text/css" href = "style.css"/>
   </head>
   <body>
     <main>
-      <div>
-
+      <div class = "left-container">
+        <span class = "site-logo">M</span>
+        <h1 class = "site-title">Mortgage Repayment Calculator</h1>
+        <br>
+        <span id = "monthlyRepayment" class = "monthly-repayment-price">
+          $0.00
+        </span>
+        <p class = "uppercase">
+          Est. Monthly Payment
+        </p>
+        <br>
+        <form>
+          <input type = "number" id = "principal" placeholder = "Mortgage Loan Amount" value = "">
+          <br>
+          <input type = "number" id = "interestRate" placeholder = "Interest Rate" value = "">
+          <br>
+          <input type = "number" id = "repaymentPeriod" placeholder = "Repayment Period In Years" value = "">
+        </form>
       </div>
-      <div>
-
+      <div class = "right-container">
+        <section class = "faq-container">
+          <h3 class = "faq-question">What is a mortgage?</h3>
+          <p class = "faq-answer">
+            A mortgage is the amount of money you took out
+            in loans to pay for the cost of a house that you are
+            required to pay back monthly for a set period of
+            time. Think of it as a fancy word for saying “house
+            loan.”
+          </p>
+        </section>
+        <section class = "faq-container">
+          <h3 class = "faq-question">What is a downpayment?</h3>
+          <p class = "faq-answer">
+            A down payment is the amount of money you have
+            that you can pay for the house without taking out
+            a loan. In other words, it’s the amount of cash you
+            have in your bank that you can use to pay for the
+            house before taking out a mortgage to pay for the
+            remaining cost of the house.
+          </p>
+        </section>
+        <section class = "faq-container">
+          <h3 class = "faq-question">What is a mortgage rate?</h3>
+          <p class = "faq-answer">
+            A mortgage rate is the interest rate charged on
+            your home loan.
+          </p>
+        </section>
+        <section class = "faq-container">
+          <h3 class = "faq-question">What is the repayment period?</h3>
+          <p class = "faq-answer">
+            The repayment period is the total time length you
+            are expected to be able to pay off your entire
+            mortgage by. This number can vary, but the most
+            common numbers are 15 years and 30 years.
+          </p>
+        </section>
       </div>
     </main>
     <script type = "text/javascript" src = "scripts.js"></script>
