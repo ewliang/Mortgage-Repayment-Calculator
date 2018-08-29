@@ -9,24 +9,23 @@
   </head>
   <body>
     <main>
-      <div class = "left-container">
+      <div class = "container">
         <span class = "site-logo">M</span>
         <h1 class = "site-title">Mortgage Repayment Calculator</h1>
         <br>
         <span id = "monthlyRepayment" class = "monthly-repayment-price">
           $0.00
         </span>
-        <p class = "uppercase">
+        <p id = "resultLabel">
           Est. Monthly Payment
         </p>
         <br>
         <form onchange = "MonthlyPayment()">
           <input type = "number" id = "principal" placeholder = "Mortgage Loan Amount" value = "" step="0.01">
-          <br>
           <input type = "number" id = "interestRate" placeholder = "Interest Rate" value = "" step="0.01">
-          <br>
           <input type = "number" id = "repaymentPeriod" placeholder = "Repayment Period In Years" value = "">
         </form>
+        <br>
         <br>
         <br>
         <footer class = "text-center">
@@ -34,49 +33,11 @@
             <a class="github-button" href="https://github.com/ewliang/Mortgage-Repayment-Calculator" data-icon="octicon-star" aria-label="Star ewliang/Mortgage-Repayment-Calculator on GitHub">Star</a>
             <a class="github-button" href="https://github.com/ewliang/Mortgage-Repayment-Calculator/fork" data-icon="octicon-repo-forked" aria-label="Fork ewliang/Mortgage-Repayment-Calculator on GitHub">Fork</a>
           </span>
+          <br>
           <p>
-            Copyright &copy; 2018 Eric Liang. Designed and Developed by <a href = "https://www.eric-liang.com">Eric Liang</a>. All Rights Reserved.
+            Copyright &copy; 2018 <a href = "https://www.eric-liang.com">Eric Liang</a>. Designed and Developed by <a href = "https://www.eric-liang.com">Eric Liang</a>.
           </p>
         </footer>
-      </div>
-      <div class = "right-container">
-        <section class = "faq-container">
-          <h3 class = "faq-question">What is a mortgage?</h3>
-          <p class = "faq-answer">
-            A mortgage is the amount of money you took out
-            in loans to pay for the cost of a house that you are
-            required to pay back monthly for a set period of
-            time. Think of it as a fancy word for saying “house
-            loan.”
-          </p>
-        </section>
-        <section class = "faq-container">
-          <h3 class = "faq-question">What is a downpayment?</h3>
-          <p class = "faq-answer">
-            A down payment is the amount of money you have
-            that you can pay for the house without taking out
-            a loan. In other words, it’s the amount of cash you
-            have in your bank that you can use to pay for the
-            house before taking out a mortgage to pay for the
-            remaining cost of the house.
-          </p>
-        </section>
-        <section class = "faq-container">
-          <h3 class = "faq-question">What is a mortgage rate?</h3>
-          <p class = "faq-answer">
-            A mortgage rate is the interest rate charged on
-            your home loan.
-          </p>
-        </section>
-        <section class = "faq-container">
-          <h3 class = "faq-question">What is the repayment period?</h3>
-          <p class = "faq-answer">
-            The repayment period is the total time length you
-            are expected to be able to pay off your entire
-            mortgage by. This number can vary, but the most
-            common numbers are 15 years and 30 years.
-          </p>
-        </section>
       </div>
     </main>
     <script type = "text/javascript" src = "scripts.js"></script>
